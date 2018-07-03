@@ -4,7 +4,7 @@
 using namespace std;    
 int main()  
 {  
-    string str("some string");  
+    string str("abC def");  
     // range for
     for(auto &c : str)  
     {  
