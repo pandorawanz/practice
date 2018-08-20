@@ -12,9 +12,9 @@ public class Main {
         System.out.print("Please enter the integer 'N':");
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
-        if (2<=N&&N<=20) {
+        if (2<=N && N<=20) {
             for(int i = 1; i <= 10 ; i++) {
-                System.out.println(N+"×"+i+"="+N*i);
+                System.out.println(N + "×" + i + "=" + N*i);
             }
         }
         else System.out.println("'N' is not in the range from 2 to 20.");
